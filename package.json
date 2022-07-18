@@ -1,0 +1,22 @@
+{
+  "name": "weatherbot3000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejnesuta/weatherbot3000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matejnesuta/weatherbot3000/issues"
+  },
+  "homepage": "https://github.com/matejnesuta/weatherbot3000#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
