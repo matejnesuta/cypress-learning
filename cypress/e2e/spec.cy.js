@@ -1,16 +1,18 @@
 /// <reference types="cypress" />
 
-describe('The Home Page', () => {
+describe('Elements', () => {
     beforeEach(() => {
         cy.visit("/")
+        cy.get('.category-cards > :nth-child(1)').click()
     })
 
-    it('successfully loads', () => {
-        // console.log(Cypress.env)
-        cy.log("hou")
-    })
-    it('fills login and password fields with the correct data', () => {
-        cy.get('[data-test="username"]').type("prdel")
+    it('Text box', () => {
+        cy.get(':nth-child(1) > .element-list > .menu-list > #item-0').click()
+        cy.get('#userName').type("Kvet Horvath")
+        cy.get('#userEmail').type("kvethorvath@email.com")
+        cy.get('#currentAddress').type("nábř. E. Beneše 128, 118 00 Malá Strana")
+        cy.get('#permanentAddress').type("nábř. E. Beneše 128, 118 00 Malá Strana")
+        cy.get('#submit').submit()
     })
 })
 
