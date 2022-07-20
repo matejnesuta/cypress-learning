@@ -7,7 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       
     },
-    // chromeWebSecurity: false,
+    chromeWebSecurity: false,
     data: {
         login:"standard_user",
         password:"secret_sauce",
