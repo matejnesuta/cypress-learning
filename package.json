@@ -1,5 +1,5 @@
 {
-    "name": "weatherbot3000",
+    "name": "cypress-learning",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/matejnesuta/weatherbot3000.git"
+        "url": "git+https://github.com/matejnesuta/cypress-learning.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/matejnesuta/weatherbot3000/issues"
+        "url": "https://github.com/matejnesuta/cypress-learning/issues"
     },
-    "homepage": "https://github.com/matejnesuta/weatherbot3000#readme",
+    "homepage": "https://github.com/matejnesuta/cypress-learning#readme",
     "devDependencies": {
         "cypress": "^10.3.0"
     }
