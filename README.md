@@ -1,3 +1,3 @@
-# weatherbot3000
+# Cypress learning
 
-Just a little project of mine. I need to learn Cypress as a part of my internship, so I decided to start with my old unused Twitter account. 
+I need to learn Cypress as a part of my internship, so I decided to dedicate this repo to that activity. 
